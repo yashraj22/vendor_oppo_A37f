@@ -89,5 +89,4 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_video_cmcc.so:system/vendor/lib/libchromatix_ov5648_video_cmcc.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl.so:system/vendor/lib/libchromatix_ov5648_zsl.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl_fb.so:system/vendor/lib/libchromatix_ov5648_zsl_fb.so \
-    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl_find7s.so:system/vendor/lib/libchromatix_ov5648_zsl_find7s.so \
-    vendor/oppo/find7/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl_find7s.so:system/vendor/lib/libchromatix_ov5648_zsl_find7s.so
