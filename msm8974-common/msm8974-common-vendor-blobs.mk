@@ -19,8 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/oppo/msm8974-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/oppo/msm8974-common/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/oppo/msm8974-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -39,13 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/oppo/msm8974-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/msm8974-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/oppo/msm8974-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
@@ -123,6 +114,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/oppo/msm8974-common/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/oppo/msm8974-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -130,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
@@ -147,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oppo/msm8974-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/oppo/msm8974-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/oppo/msm8974-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -162,8 +153,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/oppo/msm8974-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
+    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/oppo/msm8974-common/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so
 endif
