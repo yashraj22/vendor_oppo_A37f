@@ -65,24 +65,17 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/oppo/msm8939-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.msm8916.so:system/lib64/hw/camera.msm8916.so \
-    vendor/oppo/msm8939-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
-    vendor/oppo/msm8939-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/oppo/msm8939-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/oppo/msm8939-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/oppo/msm8939-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
-    vendor/oppo/msm8939-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/oppo/msm8939-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/oppo/msm8939-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/oppo/msm8939-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
