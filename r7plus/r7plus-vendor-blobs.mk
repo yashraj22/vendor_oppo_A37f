@@ -27,4 +27,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_FW_S3508_Samsung.img:system/etc/firmware/tp/15018/15018_FW_S3508_Samsung.img \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img:system/etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img \
-    vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_Limit_Samsung.img:system/etc/firmware/tp/15018/15018_Limit_Samsung.img
+    vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_Limit_Samsung.img:system/etc/firmware/tp/15018/15018_Limit_Samsung.img \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b00:system/etc/firmware/fingerprints.b00 \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b01:system/etc/firmware/fingerprints.b01 \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b02:system/etc/firmware/fingerprints.b02 \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b03:system/etc/firmware/fingerprints.b03 \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.mdt:system/etc/firmware/fingerprints.mdt
