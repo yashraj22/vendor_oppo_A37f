@@ -65,9 +65,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/oppo/msm8939-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/oppo/msm8939-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.msm8916.so:system/lib64/hw/camera.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
