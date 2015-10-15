@@ -229,6 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/libDivxDrm.so:system/vendor/lib64/libDivxDrm.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
@@ -302,7 +303,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/libOmxEvrcEnc.so:system/vendor/lib64/libOmxEvrcEnc.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/libOmxQcelp13Enc.so:system/vendor/lib64/libOmxQcelp13Enc.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/libOmxVdecHevc.so:system/vendor/lib64/libOmxVdecHevc.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
@@ -340,6 +344,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
@@ -549,6 +554,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
@@ -662,8 +668,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/libOmxEvrcEnc.so:system/vendor/lib/libOmxEvrcEnc.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/libOmxQcelp13Enc.so:system/vendor/lib/libOmxQcelp13Enc.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -706,6 +715,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
@@ -765,6 +775,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/mmi_volume.so:system/vendor/lib/mmi_volume.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
