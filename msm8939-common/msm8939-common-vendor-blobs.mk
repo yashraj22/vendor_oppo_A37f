@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/oppo/msm8939-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oppo/msm8939-common/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/oppo/msm8939-common/proprietary/bin/perfd:system/bin/perfd \
     vendor/oppo/msm8939-common/proprietary/bin/psensord:system/bin/psensord \
     vendor/oppo/msm8939-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/msm8939-common/proprietary/bin/qseecomd:system/bin/qseecomd \
