@@ -105,7 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/oppo/msm8974-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/oppo/msm8974-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/oppo/msm8974-common/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/oppo/msm8974-common/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -138,7 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/oppo/msm8974-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/oppo/msm8974-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/oppo/msm8974-common/proprietary/bin/time_daemon:system/bin/time_daemon \
