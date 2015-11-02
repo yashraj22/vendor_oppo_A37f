@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
+    vendor/oppo/n3/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
@@ -39,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
@@ -54,11 +54,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so
 
 PRODUCT_COPY_FILES += \
-    vendor/oppo/n3/proprietary/lib/libjpeg_old.so:system/lib/libjpeg_old.so \
     vendor/oppo/n3/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/oppo/n3/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/oppo/n3/proprietary/vendor/lib/libmmcamera2_q3a_special.so:system/vendor/lib/libmmcamera2_q3a_special.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
@@ -67,20 +66,15 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_sunny_16825_eeprom.so:system/vendor/lib/libmmcamera_sunny_16825_eeprom.so \
     vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/oppo/n3/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+    vendor/oppo/n3/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/oppo/n3/proprietary/vendor/lib/libt2tmanager.so:system/vendor/lib/libt2tmanager.so \
     vendor/oppo/n3/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/oppo/n3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/oppo/n3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/oppo/n3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_liteo.so:system/vendor/lib/libactuator_rohm_bu64243gwz_liteo.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_liteo_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_liteo_camcorder.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_liteo_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_liteo_camera.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_common.so:system/vendor/lib/libchromatix_ov16825_common.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_common_1080p.so:system/vendor/lib/libchromatix_ov16825_common_1080p.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_common_480p.so:system/vendor/lib/libchromatix_ov16825_common_480p.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_common_480p_liteon.so:system/vendor/lib/libchromatix_ov16825_common_480p_liteon.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_common_liteon.so:system/vendor/lib/libchromatix_ov16825_common_liteon.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_default_video.so:system/vendor/lib/libchromatix_ov16825_default_video.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_default_video_front.so:system/vendor/lib/libchromatix_ov16825_default_video_front.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_hfr_120.so:system/vendor/lib/libchromatix_ov16825_hfr_120.so \
@@ -91,15 +85,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_liveshot_front.so:system/vendor/lib/libchromatix_ov16825_liveshot_front.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_preview.so:system/vendor/lib/libchromatix_ov16825_preview.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_preview_binning.so:system/vendor/lib/libchromatix_ov16825_preview_binning.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_preview_binning_liteon.so:system/vendor/lib/libchromatix_ov16825_preview_binning_liteon.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_preview_fb.so:system/vendor/lib/libchromatix_ov16825_preview_fb.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_preview_front.so:system/vendor/lib/libchromatix_ov16825_preview_front.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_preview_liteon.so:system/vendor/lib/libchromatix_ov16825_preview_liteon.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_preview_night.so:system/vendor/lib/libchromatix_ov16825_preview_night.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_preview_sports.so:system/vendor/lib/libchromatix_ov16825_preview_sports.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_snapshot.so:system/vendor/lib/libchromatix_ov16825_snapshot.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_snapshot_fb.so:system/vendor/lib/libchromatix_ov16825_snapshot_fb.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_snapshot_front.so:system/vendor/lib/libchromatix_ov16825_snapshot_front.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_snapshot_liteon.so:system/vendor/lib/libchromatix_ov16825_snapshot_liteon.so \
     vendor/oppo/n3/proprietary/vendor/lib/libchromatix_ov16825_snapshot_night.so:system/vendor/lib/libchromatix_ov16825_snapshot_night.so \
     vendor/oppo/n3/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
