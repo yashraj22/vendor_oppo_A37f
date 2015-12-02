@@ -96,8 +96,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/oppo/msm8974-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
