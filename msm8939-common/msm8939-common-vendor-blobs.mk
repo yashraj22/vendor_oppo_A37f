@@ -71,11 +71,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oppo/msm8939-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.msm8916.so:system/lib64/hw/camera.msm8916.so \
+    vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.vendor.msm8916.so:system/lib64/hw/camera.vendor.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
     vendor/oppo/msm8939-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-    vendor/oppo/msm8939-common/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/oppo/msm8939-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
