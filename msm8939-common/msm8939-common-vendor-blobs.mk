@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/oppo/msm8939-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oppo/msm8939-common/proprietary/bin/sensor_work:system/bin/sensor_work \
-    vendor/oppo/msm8939-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/oppo/msm8939-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/msm8939-common/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -85,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
+    vendor/oppo/msm8939-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
