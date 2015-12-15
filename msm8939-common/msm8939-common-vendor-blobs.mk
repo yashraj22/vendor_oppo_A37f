@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/oppo/msm8939-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oppo/msm8939-common/proprietary/bin/sensor_work:system/bin/sensor_work \
-    vendor/oppo/msm8939-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/oppo/msm8939-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/msm8939-common/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -71,11 +70,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oppo/msm8939-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.msm8916.so:system/lib64/hw/camera.msm8916.so \
+    vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.vendor.msm8916.so:system/lib64/hw/camera.vendor.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
     vendor/oppo/msm8939-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-    vendor/oppo/msm8939-common/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/oppo/msm8939-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -85,11 +84,20 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
+    vendor/oppo/msm8939-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:system/vendor/lib64/egl/libESXEGL_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib64/egl/libESXGLESv1_CM_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libESXGLESv2_adreno.so:system/vendor/lib64/egl/libESXGLESv2_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libRBEGL_adreno.so:system/vendor/lib64/egl/libRBEGL_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -265,6 +273,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/liblistenjni.so:system/vendor/lib64/liblistenjni.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/liblistensoundmodel2.so:system/vendor/lib64/liblistensoundmodel2.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
@@ -402,10 +411,18 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/mmi_wifi.so:system/vendor/lib64/mmi_wifi.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -596,6 +613,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
