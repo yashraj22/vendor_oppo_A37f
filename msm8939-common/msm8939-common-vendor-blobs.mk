@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/oppo/msm8939-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oppo/msm8939-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/oppo/msm8939-common/proprietary/bin/perfd:system/bin/perfd \
     vendor/oppo/msm8939-common/proprietary/bin/psensord:system/bin/psensord \
     vendor/oppo/msm8939-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/msm8939-common/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -82,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/oppo/msm8939-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/oppo/msm8939-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
