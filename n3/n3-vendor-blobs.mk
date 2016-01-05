@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -50,6 +50,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/n3/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/n3/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/oppo/n3/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/oppo/n3/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/oppo/n3/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/oppo/n3/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/oppo/n3/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so
 
