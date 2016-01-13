@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_PACKAGES += \
-    libqct_resampler \
     libmm-abl
 
 PRODUCT_PACKAGES += \
