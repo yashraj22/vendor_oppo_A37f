@@ -44,22 +44,14 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/msm8974-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/oppo/msm8974-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/oppo/msm8974-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/oppo/msm8974-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
