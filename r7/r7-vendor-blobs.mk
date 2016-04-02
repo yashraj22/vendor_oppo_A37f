@@ -206,6 +206,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/oppo/r7/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/oppo/r7/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/oppo/r7/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/oppo/r7/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/r7/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/oppo/r7/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
