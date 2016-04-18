@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_s5k3m2.so:system/vendor/lib/libmmcamera_s5k3m2.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_s5k3l8_15109.so:system/vendor/lib/libmmcamera_s5k3l8_15109.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so:system/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so \
