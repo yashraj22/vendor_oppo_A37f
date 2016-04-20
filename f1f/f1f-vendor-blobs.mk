@@ -320,5 +320,4 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/f1f/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/oppo/f1f/proprietary/etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin:system/etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin \
-    vendor/oppo/f1f/proprietary/bin/cnss-daemon:system/bin/cnss-daemon
+    vendor/oppo/f1f/proprietary/etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin:system/etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin

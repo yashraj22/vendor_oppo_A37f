@@ -263,5 +263,4 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/r7/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/oppo/r7/proprietary/etc/firmware/tp/15011/15011_FW_S3508_Tpk.img:system/etc/firmware/tp/15011/15011_FW_S3508_Tpk.img \
-    vendor/oppo/r7/proprietary/etc/firmware/tp/15011/15011_Limit_Tpk.img:system/etc/firmware/tp/15011/15011_Limit_Tpk.img \
-    vendor/oppo/r7/proprietary/bin/cnss-daemon:system/bin/cnss-daemon
+    vendor/oppo/r7/proprietary/etc/firmware/tp/15011/15011_Limit_Tpk.img:system/etc/firmware/tp/15011/15011_Limit_Tpk.img
