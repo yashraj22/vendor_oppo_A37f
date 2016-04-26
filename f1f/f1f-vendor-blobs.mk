@@ -99,8 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_imx278_video_binning.so:system/vendor/lib/libchromatix_imx278_video_binning.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_imx278_video_hdr.so:system/vendor/lib/libchromatix_imx278_video_hdr.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_ov8856_common.so:system/vendor/lib/libchromatix_ov8856_common.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_ov8856_default_video.so:system/vendor/lib/libchromatix_ov8856_default_video.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_ov8856_hfr_120fps.so:system/vendor/lib/libchromatix_ov8856_hfr_120fps.so \
@@ -240,7 +238,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/oppo/f1f/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/oppo/f1f/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/f1f/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/oppo/f1f/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -314,6 +315,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/oppo/f1f/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/oppo/f1f/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/oppo/f1f/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/f1f/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
