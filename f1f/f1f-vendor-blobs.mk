@@ -92,6 +92,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_15062.so:system/vendor/lib/libactuator_dw9800w_15062.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_camcorder.so:system/vendor/lib/libactuator_dw9800w_camcorder.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_camera.so:system/vendor/lib/libactuator_dw9800w_camera.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3l8_camcorder.so:system/vendor/lib/libactuator_dw9800w_s5k3l8_camcorder.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3l8_camera.so:system/vendor/lib/libactuator_dw9800w_s5k3l8_camera.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3l8.so:system/vendor/lib/libactuator_dw9800w_s5k3l8.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so:system/vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2_camera.so:system/vendor/lib/libactuator_dw9800w_s5k3m2_camera.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2.so:system/vendor/lib/libactuator_dw9800w_s5k3m2.so \
