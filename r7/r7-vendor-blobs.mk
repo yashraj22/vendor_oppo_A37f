@@ -63,13 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_ov8858_15011.so:system/vendor/lib/libmmcamera_ov8858_15011.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_s5k3m2_15011.so:system/vendor/lib/libmmcamera_s5k3m2_15011.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_s5k3m2.so:system/vendor/lib/libmmcamera_s5k3m2.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so:system/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
@@ -78,27 +73,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oppo/r7/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/oppo/r7/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9714_v78s85_camcorder.so:system/vendor/lib/libactuator_dw9714_v78s85_camcorder.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9714_v78s85_camera.so:system/vendor/lib/libactuator_dw9714_v78s85_camera.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9714_v78s85.so:system/vendor/lib/libactuator_dw9714_v78s85.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9718_camcorder.so:system/vendor/lib/libactuator_dw9718_camcorder.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9718_camera.so:system/vendor/lib/libactuator_dw9718_camera.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
     vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9800w_15062_camcorder.so:system/vendor/lib/libactuator_dw9800w_15062_camcorder.so \
     vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9800w_15062_camera.so:system/vendor/lib/libactuator_dw9800w_15062_camera.so \
     vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9800w_15062.so:system/vendor/lib/libactuator_dw9800w_15062.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9800w_camcorder.so:system/vendor/lib/libactuator_dw9800w_camcorder.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9800w_camera.so:system/vendor/lib/libactuator_dw9800w_camera.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so:system/vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2_camera.so:system/vendor/lib/libactuator_dw9800w_s5k3m2_camera.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2.so:system/vendor/lib/libactuator_dw9800w_s5k3m2.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_dw9800w.so:system/vendor/lib/libactuator_dw9800w.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_15011_common.so:system/vendor/lib/libchromatix_ov8858_15011_common.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_15011_default_video.so:system/vendor/lib/libchromatix_ov8858_15011_default_video.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_15011_liveshot.so:system/vendor/lib/libchromatix_ov8858_15011_liveshot.so \
@@ -108,18 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_15011_small_video.so:system/vendor/lib/libchromatix_ov8858_15011_small_video.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_15011_snapshot_fb.so:system/vendor/lib/libchromatix_ov8858_15011_snapshot_fb.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_15011_snapshot.so:system/vendor/lib/libchromatix_ov8858_15011_snapshot.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_common.so:system/vendor/lib/libchromatix_ov8858_common.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:system/vendor/lib/libchromatix_ov8858_default_video.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_hfr_120fps.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_hfr_60fps.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_hfr_90fps.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:system/vendor/lib/libchromatix_ov8858_liveshot.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_preview_binding.so:system/vendor/lib/libchromatix_ov8858_preview_binding.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_preview_fb.so:system/vendor/lib/libchromatix_ov8858_preview_fb.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_small_video.so:system/vendor/lib/libchromatix_ov8858_small_video.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_snapshot_fb.so:system/vendor/lib/libchromatix_ov8858_snapshot_fb.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_15011_common_panorama.so:system/vendor/lib/libchromatix_s5k3m2_15011_common_panorama.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_15011_common.so:system/vendor/lib/libchromatix_s5k3m2_15011_common.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_15011_default_video.so:system/vendor/lib/libchromatix_s5k3m2_15011_default_video.so \
@@ -134,24 +99,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_15011_snapshot.so:system/vendor/lib/libchromatix_s5k3m2_15011_snapshot.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_15011_video_hd.so:system/vendor/lib/libchromatix_s5k3m2_15011_video_hd.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_15011_zsl.so:system/vendor/lib/libchromatix_s5k3m2_15011_zsl.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_common_panorama.so:system/vendor/lib/libchromatix_s5k3m2_common_panorama.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_common.so:system/vendor/lib/libchromatix_s5k3m2_common.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_default_video.so:system/vendor/lib/libchromatix_s5k3m2_default_video.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3m2_hfr_120fps.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3m2_hfr_60fps.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3m2_hfr_90fps.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_liveshot.so:system/vendor/lib/libchromatix_s5k3m2_liveshot.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_preview_panorama.so:system/vendor/lib/libchromatix_s5k3m2_preview_panorama.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_preview.so:system/vendor/lib/libchromatix_s5k3m2_preview.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_small_video.so:system/vendor/lib/libchromatix_s5k3m2_small_video.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so:system/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot.so:system/vendor/lib/libchromatix_s5k3m2_snapshot.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_video_hd.so:system/vendor/lib/libchromatix_s5k3m2_video_hd.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_zsl.so:system/vendor/lib/libchromatix_s5k3m2_zsl.so \
+    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so:system/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so \
     vendor/oppo/r7/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/r7/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/r7/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/oppo/r7/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_ov8858_15011.so:system/vendor/lib/libmmcamera_ov8858_15011.so \
+    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_s5k3m2_15011.so:system/vendor/lib/libmmcamera_s5k3m2_15011.so \
     vendor/oppo/r7/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/r7/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/oppo/r7/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
