@@ -247,9 +247,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/oppo/r7/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/oppo/r7/proprietary/bin/psensord:system/bin/psensord \
-    vendor/oppo/r7/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
     vendor/oppo/r7/proprietary/vendor/lib/libcalmodule_memsic.so:system/vendor/lib/libcalmodule_memsic.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libcalmodule_yamaha.so:system/vendor/lib/libcalmodule_yamaha.so \
     vendor/oppo/r7/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/oppo/r7/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/oppo/r7/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
