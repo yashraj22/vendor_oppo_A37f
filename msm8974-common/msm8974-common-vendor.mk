@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
+    QtiTetherService \
     shutdownlistener
 
 PRODUCT_PACKAGES += \
