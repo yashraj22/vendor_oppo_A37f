@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
     vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_music_table.eq:system/etc/firmware/left.tfa9890_music_table.eq \
     vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/etc/firmware/left.tfa9890_music_table.preset \
-    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_n1b12.patch:system/etc/firmware/left.tfa9890_n1b12.patch \
     vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
     vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_voice_table.eq:system/etc/firmware/left.tfa9890_voice_table.eq \
     vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
