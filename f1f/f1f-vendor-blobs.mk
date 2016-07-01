@@ -61,47 +61,19 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_s5k3l8_15109.so:system/vendor/lib/libmmcamera_s5k3l8_15109.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so:system/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_truly_s5k3h7_eeprom.so:system/vendor/lib/libmmcamera_truly_s5k3h7_eeprom.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oppo/f1f/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9714_v78s85_camcorder.so:system/vendor/lib/libactuator_dw9714_v78s85_camcorder.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9714_v78s85_camera.so:system/vendor/lib/libactuator_dw9714_v78s85_camera.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9714_v78s85.so:system/vendor/lib/libactuator_dw9714_v78s85.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9718_camcorder.so:system/vendor/lib/libactuator_dw9718_camcorder.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9718_camera.so:system/vendor/lib/libactuator_dw9718_camera.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_15062_camcorder.so:system/vendor/lib/libactuator_dw9800w_15062_camcorder.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_15062_camera.so:system/vendor/lib/libactuator_dw9800w_15062_camera.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_15062.so:system/vendor/lib/libactuator_dw9800w_15062.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_camcorder.so:system/vendor/lib/libactuator_dw9800w_camcorder.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_camera.so:system/vendor/lib/libactuator_dw9800w_camera.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3l8_camcorder.so:system/vendor/lib/libactuator_dw9800w_s5k3l8_camcorder.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3l8_camera.so:system/vendor/lib/libactuator_dw9800w_s5k3l8_camera.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3l8.so:system/vendor/lib/libactuator_dw9800w_s5k3l8.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so:system/vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2_camera.so:system/vendor/lib/libactuator_dw9800w_s5k3m2_camera.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w_s5k3m2.so:system/vendor/lib/libactuator_dw9800w_s5k3m2.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_dw9800w.so:system/vendor/lib/libactuator_dw9800w.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_ov8856_common.so:system/vendor/lib/libchromatix_ov8856_common.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_ov8856_default_video.so:system/vendor/lib/libchromatix_ov8856_default_video.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_ov8856_hfr_120fps.so:system/vendor/lib/libchromatix_ov8856_hfr_120fps.so \
@@ -127,19 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_15109_snapshot_panorama.so:system/vendor/lib/libchromatix_s5k3l8_15109_snapshot_panorama.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_15109_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_15109_snapshot.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_15109_zsl_off.so:system/vendor/lib/libchromatix_s5k3l8_15109_zsl_off.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_common_panorama.so:system/vendor/lib/libchromatix_s5k3l8_common_panorama.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_common.so:system/vendor/lib/libchromatix_s5k3l8_common.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_default_video.so:system/vendor/lib/libchromatix_s5k3l8_default_video.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l8_hfr_120fps.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_liveshot.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_preview_cmcc.so:system/vendor/lib/libchromatix_s5k3l8_preview_cmcc.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_preview_panorama.so:system/vendor/lib/libchromatix_s5k3l8_preview_panorama.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_preview.so:system/vendor/lib/libchromatix_s5k3l8_preview.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_small_video.so:system/vendor/lib/libchromatix_s5k3l8_small_video.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot_cmcc.so:system/vendor/lib/libchromatix_s5k3l8_snapshot_cmcc.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot_panorama.so:system/vendor/lib/libchromatix_s5k3l8_snapshot_panorama.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_snapshot.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_off.so:system/vendor/lib/libchromatix_s5k3l8_zsl_off.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_gt24c64a_eeprom.so:system/vendor/lib/libmmcamera_gt24c64a_eeprom.so \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -234,6 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/oppo/f1f/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/oppo/f1f/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libmmcamera_s5k3l8_15109.so:system/vendor/lib/libmmcamera_s5k3l8_15109.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -305,7 +267,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/oppo/f1f/proprietary/bin/psensord:system/bin/psensord \
-    vendor/oppo/f1f/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libcalmodule_yamaha.so:system/vendor/lib/libcalmodule_yamaha.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
