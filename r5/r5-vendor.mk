@@ -27,10 +27,6 @@ PRODUCT_PACKAGES += \
     libmm-abl
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libloc_ds_api
-
-PRODUCT_PACKAGES += \
     libtime_genoff
 
 $(call inherit-product, vendor/oppo/r5/r5-vendor-blobs.mk)

@@ -120,27 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b02:system/etc/firmware/fingerprints.b02 \
     vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b03:system/etc/firmware/fingerprints.b03 \
     vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.mdt:system/etc/firmware/fingerprints.mdt \
-    vendor/oppo/r7plus/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/oppo/r7plus/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
-    vendor/oppo/r7plus/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \

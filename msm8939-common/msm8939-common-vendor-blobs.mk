@@ -29,6 +29,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -73,6 +78,16 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \

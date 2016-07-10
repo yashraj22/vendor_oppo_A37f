@@ -105,11 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_ov8858_15011.so:system/vendor/lib/libmmcamera_ov8858_15011.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_s5k3m2_15011.so:system/vendor/lib/libmmcamera_s5k3m2_15011.so \
-    vendor/oppo/r7/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/oppo/r7/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/oppo/r7/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/oppo/r7/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/oppo/r7/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
