@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/oppo/r7plus/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/oppo/r7plus/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/oppo/r7plus/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/r7plus/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/oppo/r7plus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oppo/r7plus/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -58,6 +59,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
@@ -78,10 +81,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
