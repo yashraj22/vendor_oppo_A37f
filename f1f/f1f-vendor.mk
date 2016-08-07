@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
-    vendor/oppo/f1f/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
