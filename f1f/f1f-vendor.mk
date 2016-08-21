@@ -23,10 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oppo/f1f/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/oppo/f1f/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/oppo/f1f/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/f1f/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/f1f/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/f1f/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/oppo/f1f/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/oppo/f1f/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/f1f/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -45,9 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/f1f/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/f1f/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/oppo/f1f/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/oppo/f1f/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/oppo/f1f/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/oppo/f1f/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/f1f/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
@@ -100,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -133,13 +133,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oppo/f1f/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -153,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \

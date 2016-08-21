@@ -23,10 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oppo/r5/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/oppo/r5/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/oppo/r5/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/r5/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/r5/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/r5/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/oppo/r5/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/oppo/r5/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/r5/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/r5/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/r5/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -47,8 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/oppo/r5/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/oppo/r5/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/oppo/r5/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/oppo/r5/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/r5/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/oppo/r5/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oppo/r5/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/oppo/r5/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/oppo/r5/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/oppo/r5/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/oppo/r5/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/oppo/r5/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -98,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oppo/r5/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -124,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/oppo/r5/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/oppo/r5/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/oppo/r5/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/oppo/r5/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/oppo/r5/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
@@ -144,15 +141,15 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 PRODUCT_COPY_FILES += \
-    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890.config:system/etc/firmware/left.tfa9890.config \
-    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_music_table.eq:system/etc/firmware/left.tfa9890_music_table.eq \
-    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/etc/firmware/left.tfa9890_music_table.preset \
-    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
-    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
-    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_voice_table.eq:system/etc/firmware/left.tfa9890_voice_table.eq \
-    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
     vendor/oppo/r5/proprietary/etc/firmware/tp/14005/14005_FW_S3508_Tpk.img:system/etc/firmware/tp/14005/14005_FW_S3508_Tpk.img \
     vendor/oppo/r5/proprietary/etc/firmware/tp/14005/14005_Limit_Tpk.img:system/etc/firmware/tp/14005/14005_Limit_Tpk.img \
+    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_music_table.eq:system/etc/firmware/left.tfa9890_music_table.eq \
+    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/etc/firmware/left.tfa9890_music_table.preset \
+    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_voice_table.eq:system/etc/firmware/left.tfa9890_voice_table.eq \
+    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
+    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
+    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890.config:system/etc/firmware/left.tfa9890.config \
+    vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
     vendor/oppo/r5/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
     vendor/oppo/r5/proprietary/vendor/lib/libactuator_ak7345_camera.so:system/vendor/lib/libactuator_ak7345_camera.so \
     vendor/oppo/r5/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \

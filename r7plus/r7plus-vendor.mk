@@ -23,10 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oppo/r7plus/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/oppo/r7plus/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/oppo/r7plus/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/r7plus/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/r7plus/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/r7plus/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/oppo/r7plus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/oppo/r7plus/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/r7plus/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/r7plus/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/r7plus/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -45,9 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/r7plus/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/r7plus/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/oppo/r7plus/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/oppo/r7plus/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/oppo/r7plus/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/oppo/r7plus/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
@@ -100,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -133,13 +133,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -153,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -175,16 +172,16 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b02:system/etc/firmware/fingerprints.b02 \
     vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b03:system/etc/firmware/fingerprints.b03 \
     vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.mdt:system/etc/firmware/fingerprints.mdt \
-    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890.config:system/etc/firmware/left.tfa9890.config \
-    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_music_table.eq:system/etc/firmware/left.tfa9890_music_table.eq \
-    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/etc/firmware/left.tfa9890_music_table.preset \
-    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
-    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
-    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_voice_table.eq:system/etc/firmware/left.tfa9890_voice_table.eq \
-    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_FW_S3508_Samsung.img:system/etc/firmware/tp/15018/15018_FW_S3508_Samsung.img \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img:system/etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_Limit_Samsung.img:system/etc/firmware/tp/15018/15018_Limit_Samsung.img \
+    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_music_table.eq:system/etc/firmware/left.tfa9890_music_table.eq \
+    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/etc/firmware/left.tfa9890_music_table.preset \
+    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_voice_table.eq:system/etc/firmware/left.tfa9890_voice_table.eq \
+    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
+    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
+    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890.config:system/etc/firmware/left.tfa9890.config \
+    vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
     vendor/oppo/r7plus/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libcalmodule_memsic.so:system/vendor/lib64/libcalmodule_memsic.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libactuator_dw9800w_camcorder.so:system/vendor/lib/libactuator_dw9800w_camcorder.so \
