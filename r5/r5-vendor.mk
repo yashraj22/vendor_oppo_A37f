@@ -44,11 +44,17 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/oppo/r5/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oppo/r5/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/oppo/r5/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/oppo/r5/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/oppo/r5/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/r5/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/oppo/r5/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/oppo/r5/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/oppo/r5/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/oppo/r5/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/oppo/r5/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oppo/r5/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -65,20 +71,22 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/oppo/r5/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/oppo/r5/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/oppo/r5/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/oppo/r5/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/oppo/r5/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
@@ -89,26 +97,21 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oppo/r5/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/oppo/r5/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/oppo/r5/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -116,9 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/oppo/r5/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/oppo/r5/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/oppo/r5/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -128,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/oppo/r5/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/r5/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/oppo/r5/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/oppo/r5/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/oppo/r5/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -136,9 +136,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
+    TimeService \
     qcrilmsgtunnel \
     shutdownlistener \
-    TimeService \
     qcnvitems \
     qcrilhook
 PRODUCT_COPY_FILES += \
@@ -151,30 +151,30 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
     vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890.config:system/etc/firmware/left.tfa9890.config \
     vendor/oppo/r5/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
+    vendor/oppo/r5/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
     vendor/oppo/r5/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
     vendor/oppo/r5/proprietary/vendor/lib/libactuator_ak7345_camera.so:system/vendor/lib/libactuator_ak7345_camera.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
     vendor/oppo/r5/proprietary/vendor/lib/libcalmodule_memsic.so:system/vendor/lib/libcalmodule_memsic.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_preview_binning.so:system/vendor/lib/libchromatix_imx214_preview_binning.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_preview_night.so:system/vendor/lib/libchromatix_imx214_preview_night.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_snapshot_night.so:system/vendor/lib/libchromatix_imx214_snapshot_night.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_video_binning.so:system/vendor/lib/libchromatix_imx214_video_binning.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_common.so:system/vendor/lib/libchromatix_s5k5e2_common.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_default_video.so:system/vendor/lib/libchromatix_s5k5e2_default_video.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_preview.so:system/vendor/lib/libchromatix_s5k5e2_preview.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_preview_fb.so:system/vendor/lib/libchromatix_s5k5e2_preview_fb.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_preview_gesture.so:system/vendor/lib/libchromatix_s5k5e2_preview_gesture.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_preview.so:system/vendor/lib/libchromatix_s5k5e2_preview.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot_fb.so:system/vendor/lib/libchromatix_s5k5e2_snapshot_fb.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_snapshot.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot_fb.so:system/vendor/lib/libchromatix_s5k5e2_snapshot_fb.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_video_hd.so \
     vendor/oppo/r5/proprietary/vendor/lib/libchromatix_s5k5e2_zsl.so:system/vendor/lib/libchromatix_s5k5e2_zsl.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
