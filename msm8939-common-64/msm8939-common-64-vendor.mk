@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common-64/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/oppo/msm8939-common-64/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/oppo/msm8939-common-64/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -37,7 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
@@ -51,8 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/oppo/msm8939-common-64/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/oppo/msm8939-common-64/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
