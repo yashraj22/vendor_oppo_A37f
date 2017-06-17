@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/oppo/msm8974-common/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/oppo/msm8974-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -66,7 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -117,8 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
