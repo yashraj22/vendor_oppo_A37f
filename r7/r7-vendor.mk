@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
@@ -181,7 +180,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_15011_snapshot_panorama.so:system/vendor/lib/libchromatix_s5k3m2_15011_snapshot_panorama.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_15011_video_hd.so:system/vendor/lib/libchromatix_s5k3m2_15011_video_hd.so \
     vendor/oppo/r7/proprietary/vendor/lib/libchromatix_s5k3m2_15011_zsl.so:system/vendor/lib/libchromatix_s5k3m2_15011_zsl.so \
-    vendor/oppo/r7/proprietary/vendor/lib/libimage_stability.so:system/vendor/lib/libimage_stability.so \
+    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_ov8858_15011.so:system/vendor/lib/libmmcamera_ov8858_15011.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_s5k3m2_15011.so:system/vendor/lib/libmmcamera_s5k3m2_15011.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so:system/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so
