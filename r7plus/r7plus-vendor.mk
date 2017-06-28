@@ -24,11 +24,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oppo/r7plus/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/oppo/r7plus/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/oppo/r7plus/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/r7plus/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/r7plus/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/r7plus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/oppo/r7plus/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/r7plus/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/r7plus/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/r7plus/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -49,6 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/r7plus/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/r7plus/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/oppo/r7plus/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/oppo/r7plus/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/r7plus/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -74,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
@@ -128,6 +130,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
@@ -148,6 +151,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
@@ -160,8 +164,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
-    qcrilmsgtunnel \
     shutdownlistener \
+    qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
 PRODUCT_COPY_FILES += \
@@ -212,7 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib/libchromatix_ov8858_small_video.so:system/vendor/lib/libchromatix_ov8858_small_video.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libchromatix_ov8858_snapshot_fb.so:system/vendor/lib/libchromatix_ov8858_snapshot_fb.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libimage_stability.so:system/vendor/lib/libimage_stability.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera_imx278.so:system/vendor/lib/libmmcamera_imx278.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so \
