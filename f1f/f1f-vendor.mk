@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/oppo/f1f/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/f1f/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/oppo/f1f/proprietary/bin/radish:system/bin/radish \
     vendor/oppo/f1f/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oppo/f1f/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/f1f/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \

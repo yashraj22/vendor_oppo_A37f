@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/r7/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/r7/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/oppo/r7/proprietary/bin/radish:system/bin/radish \
     vendor/oppo/r7/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oppo/r7/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/r7/proprietary/bin/time_daemon:system/bin/time_daemon \

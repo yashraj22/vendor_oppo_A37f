@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/oppo/r7plus/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/r7plus/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/oppo/r7plus/proprietary/bin/radish:system/bin/radish \
     vendor/oppo/r7plus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oppo/r7plus/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/r7plus/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
