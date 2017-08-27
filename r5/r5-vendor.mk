@@ -181,4 +181,5 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
     vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_s5k5e2.so:system/vendor/lib/libmmcamera_s5k5e2.so \
-    vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_sonyimx214_eeprom.so:system/vendor/lib/libmmcamera_sonyimx214_eeprom.so
+    vendor/oppo/r5/proprietary/vendor/lib/libmmcamera_sonyimx214_eeprom.so:system/vendor/lib/libmmcamera_sonyimx214_eeprom.so \
+    vendor/oppo/r5/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
