@@ -21,8 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/n3/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/oppo/n3/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-    vendor/oppo/n3/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/oppo/n3/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/oppo/n3/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/n3/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/n3/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
@@ -54,11 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oppo/n3/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/oppo/n3/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so
-
-PRODUCT_PACKAGES += \
-    qcrilmsgtunnel
+    vendor/oppo/n3/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
 PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/oppo/n3/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
