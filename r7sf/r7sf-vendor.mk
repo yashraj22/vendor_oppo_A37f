@@ -212,6 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7sf/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so:system/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so \
     vendor/oppo/r7sf/proprietary/vendor/lib/libchromatix_s5k3m2_video_hd.so:system/vendor/lib/libchromatix_s5k3m2_video_hd.so \
     vendor/oppo/r7sf/proprietary/vendor/lib/libchromatix_s5k3m2_zsl.so:system/vendor/lib/libchromatix_s5k3m2_zsl.so \
+    vendor/oppo/r7sf/proprietary/vendor/lib/libchromatix_s5k3m2_zsl_off.so:system/vendor/lib/libchromatix_s5k3m2_zsl_off.so \
     vendor/oppo/r7sf/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
     vendor/oppo/r7sf/proprietary/vendor/lib/libmmcamera_s5k3m2.so:system/vendor/lib/libmmcamera_s5k3m2.so \
     vendor/oppo/r7sf/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so:system/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so \
