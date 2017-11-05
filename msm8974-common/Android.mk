@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter find7 find7s n3,$(TARGET_DEVICE)),)
+ifneq ($(filter find7 n3,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwpa_qmi_eap_proxy
