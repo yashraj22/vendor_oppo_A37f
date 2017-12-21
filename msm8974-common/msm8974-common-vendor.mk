@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/oppo/msm8974-common/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/oppo/msm8974-common/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
-    vendor/oppo/msm8974-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
