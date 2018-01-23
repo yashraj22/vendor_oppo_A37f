@@ -135,6 +135,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libwpa_qmi_eap_proxy \
     libtime_genoff \
+    qcrilmsgtunnel \
     TimeService \
-    shutdownlistener \
-    qcrilmsgtunnel
+    shutdownlistener
