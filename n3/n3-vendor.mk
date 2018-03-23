@@ -21,9 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/n3/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
     vendor/oppo/n3/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-    vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
-    vendor/oppo/n3/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/oppo/n3/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/oppo/n3/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/oppo/n3/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -55,6 +52,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/oppo/n3/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/oppo/n3/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:system/vendor/lib/hw/camera.vendor.msm8974.so \
+    vendor/oppo/n3/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/oppo/n3/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/oppo/n3/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/oppo/n3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/oppo/n3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/oppo/n3/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
