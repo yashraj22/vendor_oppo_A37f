@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/oppo/r7/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oppo/r7/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/oppo/r7/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/oppo/r7/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/oppo/r7/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/r7/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
