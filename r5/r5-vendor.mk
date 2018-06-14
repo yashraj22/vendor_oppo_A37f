@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/oppo/r5/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/oppo/r5/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/oppo/r5/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/oppo/r5/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
