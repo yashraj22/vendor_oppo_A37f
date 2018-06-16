@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/oppo/r7/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/oppo/r7/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
-    vendor/oppo/r7/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/r7/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/oppo/r7/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/oppo/r7/proprietary/vendor/bin/radish:system/vendor/bin/radish \
@@ -51,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/oppo/r7/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/oppo/r7/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/oppo/r7/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oppo/r7/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/oppo/r7/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/oppo/r7/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
