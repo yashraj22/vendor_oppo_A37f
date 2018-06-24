@@ -32,9 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/oppo/r5/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/oppo/r5/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
-    vendor/oppo/r5/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/oppo/r5/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/oppo/r5/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
     vendor/oppo/r5/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/oppo/r5/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
     vendor/oppo/r5/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
