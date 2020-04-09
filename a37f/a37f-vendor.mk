@@ -32,7 +32,37 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/a37f/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/oppo/a37f/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/oppo/a37f/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
-    vendor/oppo/a37f/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+
+
+    vendor/oppo/a37f/proprietary/vendor/firmware/Signedrompatch_v20.bin:system/vendor/firmware/Signedrompatch_v20.bin \
+    vendor/oppo/a37f/proprietary/vendor/firmware/Signedrompatch_v21.bin:system/vendor/firmware/Signedrompatch_v21.bin \
+    vendor/oppo/a37f/proprietary/vendor/firmware/Signedrompatch_v24.bin:system/vendor/firmware/Signedrompatch_v24.bin \
+    vendor/oppo/a37f/proprietary/vendor/firmware/Signedrompatch_v30.bin:system/vendor/firmware/Signedrompatch_v30.bin \
+
+
+    vendor/oppo/a37f/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/a300_pfp.fwn:system/vendor/firmware/a300_pfp.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+
+
+    vendor/oppo/a37f/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/ice40.bin:system/vendor/firmware/ice40.bin \
+    vendor/oppo/a37f/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
+    vendor/oppo/a37f/proprietary/vendor/firmware/nfc_test.bin:system/vendor/firmware/nfc_test.bin \
+
+
+
+
+
     vendor/oppo/a37f/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
     vendor/oppo/a37f/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
     vendor/oppo/a37f/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
