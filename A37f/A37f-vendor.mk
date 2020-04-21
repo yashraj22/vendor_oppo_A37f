@@ -193,12 +193,12 @@ PRODUCT_PACKAGES += \
     qcrilhook
 PRODUCT_COPY_FILES += \
     vendor/oppo/A37f/proprietary/vendor/bin/psensord:system/vendor/bin/psensord \
-    vendor/oppo/A37f/proprietary/vendor/etc/firmware/tp/15399/15399_Firmware_Biel.img:system/vendor/etc/firmware/tp/15399/15399_Firmware_Biel.img \
-    vendor/oppo/A37f/proprietary/vendor/etc/firmware/tp/15399/15399_Firmware_Oflim.img:system/vendor/etc/firmware/tp/15399/15399_Firmware_Oflim.img \
-    vendor/oppo/A37f/proprietary/vendor/etc/firmware/tp/15399/15399_Firmware_Truly.img:system/vendor/etc/firmware/tp/15399/15399_Firmware_Truly.img \
-    vendor/oppo/A37f/proprietary/vendor/etc/firmware/tp/15399/15399_Limit_Biel.img:system/vendor/etc/firmware/tp/15399/15399_Limit_Biel.img \
-    vendor/oppo/A37f/proprietary/vendor/etc/firmware/tp/15399/15399_Limit_Oflim.img:system/vendor/etc/firmware/tp/15399/15399_Limit_Oflim.img \
-    vendor/oppo/A37f/proprietary/vendor/etc/firmware/tp/15399/15399_Limit_Truly.img:system/vendor/etc/firmware/tp/15399/15399_Limit_Truly.img \
+    vendor/oppo/A37f/proprietary/vendor/firmware/tp/15399/15399_Firmware_Biel.img:system/vendor/etc/firmware/tp/15399/15399_Firmware_Biel.img \
+    vendor/oppo/A37f/proprietary/vendor/firmware/tp/15399/15399_Firmware_Oflim.img:system/vendor/etc/firmware/tp/15399/15399_Firmware_Oflim.img \
+    vendor/oppo/A37f/proprietary/vendor/firmware/tp/15399/15399_Firmware_Truly.img:system/vendor/etc/firmware/tp/15399/15399_Firmware_Truly.img \
+    vendor/oppo/A37f/proprietary/vendor/firmware/tp/15399/15399_Limit_Biel.img:system/vendor/etc/firmware/tp/15399/15399_Limit_Biel.img \
+    vendor/oppo/A37f/proprietary/vendor/firmware/tp/15399/15399_Limit_Oflim.img:system/vendor/etc/firmware/tp/15399/15399_Limit_Oflim.img \
+    vendor/oppo/A37f/proprietary/vendor/firmware/tp/15399/15399_Limit_Truly.img:system/vendor/etc/firmware/tp/15399/15399_Limit_Truly.img \
     vendor/oppo/A37f/proprietary/vendor/lib/libactuator_dw9800w_s5k3l8.so:system/vendor/lib/libactuator_dw9800w_s5k3l8.so \
     vendor/oppo/A37f/proprietary/vendor/lib/libactuator_dw9800w_s5k3l8_camcorder.so:system/vendor/lib/libactuator_dw9800w_s5k3l8_camcorder.so \
     vendor/oppo/A37f/proprietary/vendor/lib/libactuator_dw9800w_s5k3l8_camera.so:system/vendor/lib/libactuator_dw9800w_s5k3l8_camera.so \
