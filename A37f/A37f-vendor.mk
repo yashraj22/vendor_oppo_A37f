@@ -133,6 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37f/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/oppo/A37f/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/oppo/A37f/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/oppo/A37f/proprietary/vendor/lib/hw/copybit.msm8916.so:system/vendor/lib/hw/copybit.msm8916.so
     vendor/oppo/A37f/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
     vendor/oppo/A37f/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
     vendor/oppo/A37f/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
@@ -183,6 +184,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37f/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/oppo/A37f/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/oppo/A37f/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
+    vendor/oppo/A37f/proprietary/vendor/lib64/hw/copybit.msm8916.so:system/vendor/lib64/hw/copybit.msm8916.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
