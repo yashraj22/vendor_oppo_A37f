@@ -1113,7 +1113,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37f/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libRBGLESv2_adreno.so \
     vendor/oppo/A37f/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/oppo/A37f/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
-    vendor/oppo/A37f/proprietary/vendor/lib/hw/copybit.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/copybit.msm8916.so \ 
+    vendor/oppo/A37f/proprietary/vendor/lib/hw/copybit.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/copybit.msm8916.so \
     vendor/oppo/A37f/proprietary/vendor/lib64/hw/copybit.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/copybit.msm8916.so  
 
 PRODUCT_PACKAGES += \
