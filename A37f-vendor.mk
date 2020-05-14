@@ -1114,7 +1114,16 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37f/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/oppo/A37f/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/oppo/A37f/proprietary/vendor/lib/hw/copybit.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/copybit.msm8916.so \
-    vendor/oppo/A37f/proprietary/vendor/lib64/hw/copybit.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/copybit.msm8916.so  
+    vendor/oppo/A37f/proprietary/vendor/lib64/hw/copybit.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/copybit.msm8916.so \
+    vendor/oppo/A37f/proprietary/vendor/lib/libflp.so/$(TARGET_COPY_OUT_VENDOR)/lib/libflp.so \
+    vendor/oppo/A37f/proprietary/vendor/lib64/libflp.so/$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
+    vendor/oppo/A37f/proprietary/vendor/lib/libmm-als.so/$(TARGET_COPY_OUT_VENDOR)/lib/libmm-als.so \
+    vendor/oppo/A37f/proprietary/vendor/lib64/liblqe.so/$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
+    vendor/oppo/A37f/proprietary/vendor/lib64/libsettings.so/$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
+    vendor/oppo/A37f/proprietary/nevlib64/librilqmiservices.so/$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
+    vendor/oppo/A37f/proprietary/vendor/lib64/libril-qc-radioconfig.so/$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
+    vendor/oppo/A37f/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so/$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so 
+    
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
